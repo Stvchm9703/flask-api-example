@@ -1,0 +1,11 @@
+Flask
+Flask-Login
+Flask-RESTful
+Flask-Security
+Flask-SQLAlchemy
+Flask-httpauth
+itsdangerous
+pymysql
+passlib
+six
+SQLAlchemy

@@ -1,0 +1,20 @@
+__author__ = 'responsible'
+
+# Flask
+DEBUG = True
+
+# Database
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:@localhost:3306/uno_admin'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+SQLALCHEMY_COMMIT_ON_TEARDOWN = True
+
+# Flask-Security
+SECRET_KEY = '4ea569b7552a47f683f934b3acaadda7'
+SECURITY_PASSWORD_HASH = 'bcrypt'
+SECURITY_TOKEN_AUTHENTICATION_HEADER = 'Authorization'
+
+WTF_CSRF_ENABLED = False
+SECURITY_TOKEN_MAX_AGE = 86400
+SECURITY_UNAUTHORIZED_VIEW = '/'
+
+

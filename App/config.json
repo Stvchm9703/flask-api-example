@@ -1,0 +1,73 @@
+{
+  "TMSService": {
+    "host": "119.28.41.213",
+    "port": 8125,
+    "path": "/tmsmsg",
+    "client_id": "TMS_UNOPorterApp",
+    "client_name": "TMSUNOPorterApp"
+  },
+  "PageConfig": {
+    "mode": "tablet"
+  },
+  "APIService": {
+    "mode": "dev",
+    "ServerConfig": {
+      "host": "localhost",
+      "port": 8203,
+      "base_path": "/uno_porter_web/",
+      "api_path": "/api"
+    },
+    "SQL": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "MYSQL_root_password_123#$",
+      "database": "uno_web"
+    },
+    "devSQL": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "MYSQL_root_password_123#$",
+      "database": "test"
+    }
+  },
+  "uno_setting": [
+    {
+      "uno_name": "Mark IV",
+      "uno_id": "UNO0002"
+    },
+    {
+      "uno_name": "AIPR Mark I",
+      "uno_id": "UNO0001",
+      "top_cam_url": "rtsp://admin:HKAAipr2018@192.168.0.151:1054/Streaming/Channels/101",
+      "front_cam_url": "rtsp://admin:HKAAipr2018@192.168.0.152:1054/Streaming/Channels/101",
+      "ws_addr": "ws://127.0.0.1:8080/ws/"
+    }
+  ],
+  "local_setting": {
+    "Base": {
+      "uno_name": "Mark IV",
+      "client_id": "UNOFMSBase001",
+      "client_name": "UNO FMS BASE 001",
+      "uno_id": "UNO0001"
+    },
+    "Ctrl": {
+      "client_id": "UNOFMSController001",
+      "client_name": "UNO FMS CONTROLLER 001",
+      "fms_uno_id": "TEKFMS9009",
+      "preference": {
+        "callTaxi": {
+          "isdirect": true
+        }
+      }
+    }
+  },
+  "map": {
+    "map_id": "7",
+    "map_name": "T1 BAGGAGE RECLAIM",
+    "img_file": "map-T1BAGGAGERECLAIM.png",
+    "map_desc": "map-T1BAGGAGERECLAIM.mooe",
+    "graph_desc": "graph_T1BAGGAGERECLAIM.json"
+  }
+}

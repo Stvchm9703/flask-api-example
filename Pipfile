@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+itsdangerous = "*"
+passlib = "*"
+six = "*"
+Flask = "*"
+Flask-Login = "*"
+Flask-RESTful = "*"
+Flask-Security = "*"
+Flask-SQLAlchemy = "*"
+Flask-HTTPAuth = "*"
+PyMySQL = "*"
+SQLAlchemy = "*"
+flask-cors = "*"
+flask-security-too = "*"
+
+[requires]
+python_version = "3.7"
